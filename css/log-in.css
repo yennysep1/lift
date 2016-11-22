@@ -1,0 +1,35 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+.flags{
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin-top: 12px;
+}
+
+img{
+	margin-right: : 0px;
+}
+
+#keyboard{
+	margin-top: 20px;
+}
+
+.keyboard{
+	margin: 0px;
+	padding: 10px;
+}
+
+.keyboard a {
+	padding: 5px 0px;
+	border-radius: 0px;
+	margin: 0px;
+
+}
+
+.next a {
+	padding: 15px;
+	border-radius: 0px;
+}

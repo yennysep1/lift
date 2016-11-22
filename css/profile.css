@@ -1,0 +1,37 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+	margin-top: 20px;
+}
+
+.circle{
+	width: 40px;
+	height: auto;
+}
+
+.logo {
+	width: 50px;
+}
+
+i.gift{
+	background-color: #E6E6E6;
+	border-radius: 50%;
+	color: gray;
+	padding: 8px;
+}
+
+.btn-flat{
+	border: 1px solid #E6E6E6;
+	color: #04B4AE;
+
+}
+.buttons{
+	margin-top: 400px;
+}
+
+.buttons a{
+	margin-bottom: 10px;
+}
