@@ -1,0 +1,40 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+.join{
+	margin-top: -20px;
+}
+
+#sign-up{
+	padding: 20px 0px;
+}
+
+i.fa{
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.flags{
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin-top: 12px;
+}
+
+.input-field{
+	margin-top: 0px;
+}
+
+.verify{
+	margin-top: -20px;
+}
+
+.next{
+	margin-top: 300px;
+	position: relative;
+}
+.next a {
+	padding: 15px;
+	border-radius: 0px;
+}
