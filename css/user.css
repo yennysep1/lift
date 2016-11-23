@@ -17,6 +17,12 @@ i.fa{
 }
 
 
+.next a {
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	transform: translateY(0);
 
+}
 
 
