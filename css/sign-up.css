@@ -32,7 +32,7 @@ i.fa{
 	border-radius: 0px;
 	transition: all 0.3s;
 	position: fixed;
-	transform: translateY();
+	transform: translateY(300px);
 }
 
 .up {
