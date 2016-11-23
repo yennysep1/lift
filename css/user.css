@@ -1,11 +1,22 @@
-#registry{
-	margin-top: 10px;
+*{
+	margin:0px;
+	padding: 0px;
 }
 
-.input-field{
-	margin-top: -10px;
+.join{
+	margin-top: -20px;
 }
 
-.btn{
-	padding: 8px;
+#sign-up{
+	padding: 20px 0px;
 }
+
+i.fa{
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+
+
+
+

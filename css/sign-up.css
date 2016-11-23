@@ -16,11 +16,6 @@ i.fa{
     margin-top: 25px;
 }
 
-.flags{
-	border: 1px solid gray;
-	border-radius: 5px;
-	margin-top: 12px;
-}
 
 .input-field{
 	margin-top: 0px;
@@ -30,11 +25,20 @@ i.fa{
 	margin-top: -20px;
 }
 
-.next{
-	margin-top: 300px;
-	position: relative;
-}
+
 .next a {
+	margin-top: 250px;
 	padding: 15px;
 	border-radius: 0px;
+	transition: all 0.3s;
+	position: fixed;
+	transform: translateY();
+}
+
+.up {
+	transform: translateY(-250px);
+}
+
+.btn-large{
+	shad
 }
