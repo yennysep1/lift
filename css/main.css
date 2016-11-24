@@ -7,7 +7,6 @@ body{
 	/*background-image: url("../img/bg1.jpg");*/
 	background-size: cover; 
 	background-repeat: no-repeat;
-
 }
 
 video{
@@ -20,6 +19,7 @@ video{
 	z-index: -1;
 
 }
+
 
 img{
 	margin-top: 50px;

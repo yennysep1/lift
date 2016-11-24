@@ -35,18 +35,13 @@
          <div class="container">
             <div class="row">
               
-                <div class="input-field col s4">
-                    <select class="icons">
-                      <option value="" disabled selected>Country</option>
-                      <option value="cl" data-icon="img/flag/cl.png" class="left circle">Chile</option>
-                      <option value="pe" data-icon="img/flag/pe.png" class="left circle">Perú</option>
-                      <option value="mx" data-icon="img/flag/mx.png" class="left circle">Mexico</option>
-                    </select>
-                </div>
-
-                <div class="col s8 text-center">
-                  <input type="tel" id="phone" name="telefono" placeholder="+569 00000000">
-                </div>
+              <div class="col s4 offset-s1 countries" id="countries">
+                <a href="countries.html" id="pais"><img src="img/flag/cl.png"  alt=""></a>
+                <span id="prefijo">+569</span>
+              </div>
+              <div class="col s6">
+                <input type="tel" class="numero" name="telefono" placeholder="00000000" >
+              </div>
             </div>
             <p class="center-align verify">We'll send a text to verify your phone</p>
           </div>
