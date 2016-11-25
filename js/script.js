@@ -1,4 +1,4 @@
-  // CODIGO PARA EFECTOS INPUT
+  // CODIGO PARA EFECTOS INPUT MATERIALIZE
 $(document).ready(function() {
    $('select').material_select();
   
@@ -49,13 +49,13 @@ $('.next a').on('click', function(){
 	var telefono = $('.numero').val();
 
 	if( telefono.length==0){
-		alert('debe ingresar telefono');
+		$('.next').append('<span>Ingrese telefono!</span>');
 		return false;
 	} if  (isNaN(telefono)){
-		alert('solo permite numeros');
+		$('.next').append('<span>Sólo números!</span>');
 		return false;
 	} if (telefono.length !== 9){
-		alert('debe tener 9 digitos');
+		$('.next').append('<span>Sólo 9 digitos!</span>');
 		return false;
 	}
 
