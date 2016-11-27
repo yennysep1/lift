@@ -1,37 +1,78 @@
+/*ESTILOS DE PROFILE*/
+
 *{
 	margin: 0px;
 	padding: 0px;
 }
 
-header{
-	margin-top: 20px;
+header .fa{
+    font-size: 20px;
+    margin-top: 25px;
+    color: #000;
 }
-
 .circle{
 	width: 40px;
 	height: auto;
+	margin-top: 25px;
 }
 
-.logo {
-	width: 50px;
+.next1 a {
+	position: absolute;
+	z-index: 2;
+	bottom: 63px;
+	margin-top: 5px;
+	transform: translateY(0);
 }
 
-i.gift{
-	background-color: #E6E6E6;
-	border-radius: 50%;
-	color: gray;
-	padding: 8px;
+.next2 a {
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	margin-top: 5px;
+	transform: translateY(0);
 }
 
-.btn-flat{
-	border: 1px solid #E6E6E6;
-	
+/*ESTILOS NAV ASIDE*/
 
-}
-.buttons{
-	margin-top: 400px;
+#slide-out{
+	overflow-y:hidden; 
 }
 
-.buttons a{
-	margin-bottom: 10px;
+#slide-out .circle{
+	width: 100px;
+}
+
+.side-nav a{
+	line-height: 0px; 
+	font-size: 12px;
+	height: 0px;
+}
+
+.side-nav a:hover{
+	color: #26a69a;
+	background-color: #fff;
+}
+
+.info a{
+	padding-bottom: 39px;
+    padding-top: 12px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.info i{
+	margin-right: 37px;
+	font-size: 20px;
+}
+
+.drive{
+	background-color: #A9A9F5;
+	color: #fff;
+}
+
+i.fa-map-marker{
+	font-size: 25px;
+}
+
+i.fa-car{
+	font-size: 13px;
 }

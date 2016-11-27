@@ -9,17 +9,16 @@
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
       <link type="text/css"  rel="stylesheet" href="css/user.css">
-
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
-
     <body>
-       <header>
+    <!--HEADER - USER VALIDATION-->
+      <header>
         <div class="container">
           <div class="row">
             <div class="col s2">
-              <a href="index.html"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+              <a href="sign-up.html"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
             </div>
             <div class="col s8 center-align">
               <h4>Sign Up</h4>
@@ -32,42 +31,35 @@
           </div>
         </div>
       </header>
-
       <section id="registry">
         <div class="container">
-        <!-- USER NAME -->
+          <!-- USER NAME -->
           <div class="row input-user">
-              <div class="col s12">
-                  <div class="input-field ">
-                    <i class="material-icons prefix">account_circle</i>
-                    <input id="icon_prefix" type="text" name="nombre" class="">
-                    <label for="icon_prefix"> Name - last name</label>
-                  </div>
+            <div class="col s12">
+              <div class="input-field ">
+                <input id="icon_prefix" type="text" name="nombre" class="">
+                <label for="icon_prefix"><i class="fa fa-user" aria-hidden="true"></i> Name - last name</label>
               </div>
+            </div>
           </div>
-            <!-- USER MAIL -->
+          <!-- USER MAIL -->
           <div class="row input-user">
-              <div class="col s12">
-                <div class="input-field ">
-                  <i class="fa fa-envelope" aria-hidden="true"></i>
-                  <input id="email" type="email" name="correo" class="">
-                  <label for="email" data-error="wrong" data-success="right">Email</label>
-               </div>
+            <div class="col s12">
+              <div class="input-field ">
+                <input id="email" type="email" name="correo" class="">
+                <label for="email" data-error="wrong" data-success="right">
+                <i class="fa fa-envelope" aria-hidden="true"></i> Email</label>
               </div>
+            </div>
           </div>
         </div>
       </section>
-
-    
+    <!--BUTTOM NEXT-->    
       <section class="next">
-      <div class="row">
-         <a href="profile.html" class="waves-effect waves-light btn-large col s12">NEXT</a>
-      </div>
-    </section>
-
-
-    
-
+        <div class="row">
+           <a href="profile.html" class="waves-effect waves-light btn-large col s12">NEXT</a>
+        </div>
+      </section>
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>

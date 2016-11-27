@@ -1,46 +1,74 @@
-  // CODIGO PARA EFECTOS INPUT MATERIALIZE
+// CODIGO INICIALIZACIÓN INPUT MATERIALIZE
 $(document).ready(function() {
    $('select').material_select();
   
-
-
-
 //VARIABLE PARA ALMACENAR LOS DATOS O ARREGLO DE PAISES
-var paises = [
+var countries = [
 	{
-		nombre: "chile",
+		nombre: "Chile",
 		prefijo: "+569",
-		bandera: "imag/flag/cl.png"
+		bandera: "img/flag/cl.png"
 	},
 	{
-		nombre: "peru",
+		nombre: "Perú",
 		prefijo: "+519",
 		bandera: "img/flag/pe.png"
 	},
 	{
-		nombre: "mexico",
+		nombre: "Mexico",
 		prefijo: "+529",
 		bandera: "img/flag/mx.png"
+	},
+	{
+		nombre: "Zimbabwe",
+		prefijo: "+127",
+		bandera: "img/flag/zw.png"
+	},
+	{
+		nombre: "USA",
+		prefijo: "+1",
+		bandera: "img/flag/us.png"
+	},
+	{
+		nombre: "Venezuela",
+		prefijo: "+58",
+		bandera: "img/flag/ve.png"
+	},
+	{
+		nombre: "Japon",
+		prefijo: "+81",
+		bandera: "img/flag/jp.png"
+	},
+	{
+		nombre: "Colombia",
+		prefijo: "+57",
+		bandera: "img/flag/co.png"
+	},
+	{
+		nombre: "Francia",
+		prefijo: "+33",
+		bandera: "img/flag/fr.png"
 	}
 ];
 
 // TRAE EL PAIS ALMACENADO EN LOCALSTORAGE POR ÚLTIMA VEZ O POR DEFECTO CHILE
-var nombre_pais = window.localStorage.getItem("nombre_pais") || "chile";
+var name_country = window.localStorage.getItem("name_country") || "Chile";
 
-// recuperar el objeto pais , desde el arreglo de paises
-var pais = "";
-for (var i=0 ; i<paises.length ; ++i){
-	if (paises[i].nombre == nombre_pais) {
-		pais = paises[i];
+
+//RECUPERA EL OBJETO COUNTRY DENTRO DEL ARRAY COUNTRIES
+var country = "";
+for (var i=0 ; i<countries.length ; ++i){
+	if (countries[i].nombre == name_country) {
+		country = countries[i];
 		break;
 	}
 }
 // MODIFICA DOM
-$('#pais img').attr('src', pais.bandera); // CAMBIA EL ATRIBUTO
-$('#prefijo').html(pais.prefijo); // CAMBIA EL CONTENIDO HTML
+$('#pais img').attr('src', country.bandera); // CAMBIA EL ATRIBUTO PARA CAMBIAR LA IMG
+$('#prefijo').html(country.prefijo); // CAMBIA EL CONTENIDO HTML 
 
 
-
+//------------------------------------------------
 
 //VALIDACION NUMERO TELEFONICO CON BOTON NEXT
 
@@ -59,7 +87,5 @@ $('.next a').on('click', function(){
 		return false;
 	}
 
-} ); 
-
-
+}); 
 });

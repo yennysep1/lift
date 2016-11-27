@@ -1,10 +1,10 @@
+/*ESTILOS PAGINA DE INICIO APP*/
 *{
 	margin: 0px;
 	padding: 0px;
 }
 
 body{
-	/*background-image: url("../img/bg1.jpg");*/
 	background-size: cover; 
 	background-repeat: no-repeat;
 }
@@ -17,9 +17,7 @@ video{
 	left: 50%;
 	transform: translateX(-50%) translateY(-50%);
 	z-index: -1;
-
 }
-
 
 img{
 	margin-top: 50px;

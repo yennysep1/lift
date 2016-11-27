@@ -1,10 +1,6 @@
 
-  // Initialize collapse button
-  $(".button-collapse").sideNav();
-  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
-  //$('.collapsible').collapsible();
+//INICIALIZA SIDENAV materilize
 
-    $('.button-collapse').sideNav({
-      menuWidth: 200, // Default is 240
-    }
-  );
+  $('.button-collapse').sideNav({
+      menuWidth: 200, 
+  });

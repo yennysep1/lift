@@ -1,7 +1,16 @@
+/*ESTILOS DE USER*/
+
 *{
 	margin:0px;
 	padding: 0px;
 }
+
+header .fa{
+    font-size: 20px;
+    margin-top: 25px;
+    color: #000;
+}
+
 
 .join{
 	margin-top: -20px;
@@ -11,18 +20,11 @@
 	padding: 20px 0px;
 }
 
-i.fa{
-    font-size: 20px;
-    margin-top: 25px;
-}
-
-
 .next a {
 	position: absolute;
 	z-index: 2;
 	bottom: 0;
 	transform: translateY(0);
-
 }
 
 .next span{
@@ -34,7 +36,8 @@ i.fa{
 	width: 200px;
 	text-align: center;
 	margin: 5px;
-float: right;
-
+	float: right;
 }
+
+
 
