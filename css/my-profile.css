@@ -3,11 +3,6 @@
 	padding: 0px;
 }
 
-.row{
-	margin: 0px;
-	padding: 0px;
-}
-
 img{
 	position: relative;
 	width: 100%;
@@ -32,6 +27,27 @@ img{
 	visibility: hidden;
 	width: 0;
 	z-index: -9999;
+}
+
+.user-profile i{
+	border: 1px solid #26a69a;
+	border-radius: 50%;
+	padding: 10px;
+	opacity: 2;
+	color: #26a69a;
+}
+.name{
+
+	background-color: #26a69a;
+	color: #F2F2F2;
+}
+
+.user-profile i:hover{
+	opacity: 0.5;
+}
+
+.info{
+	color: #26a69a;
 }
 
 

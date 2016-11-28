@@ -30,6 +30,12 @@ $('.next a').on('click', function(){
 	var nombre = localStorage.getItem("Nombre");
 	$('#icon_prefix').html(nombre);
 
+	//GUARDANDO NOMBRE EN LOCALSTORAGE
+	localStorage.setItem('Nombre',name);
+
+	//GUARDANDO MAIL EN LOCALSTORAGE
+	localStorage.setItem('Email', email);
+
 } ); 
 
 

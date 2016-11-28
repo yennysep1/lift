@@ -1,4 +1,14 @@
 
+$(document).ready(function(){
+
+    //MUESTRA NOMBRE INGRESADO POR USUARIO
+     var userName = localStorage.getItem('Nombre');
+     $('h5').html(userName);
+
+ })
+
+
+
 //INICIALIZA SIDENAV materilize
 
   $('.button-collapse').sideNav({

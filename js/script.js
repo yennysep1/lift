@@ -86,15 +86,21 @@ $('.next a').on('click', function(){
 		Materialize.toast('<span>Debe tener 9 digitos !</span>', 2000);
 		return false;
 	} else{
-
-		var codUno = Math.random();
-		var codDos = Math.random();
-		var codTres = Math.random();
-
-		alert('Su codigo es LAB - ' + Math.round(codUno) + Math.round(codDos) + Math.round(codTres));
+		//  CODIGO ALEATORIO 
+		var length = 3,
+        charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+        retVal = "";
+    	for (var i = 0, n = charset.length; i < length; ++i) {
+        retVal += charset.charAt(Math.floor(Math.random() * n));
+    }
+    alert(retVal);		    
 	}
 
+	//GUARDANDO CODIGO RANDOM EN LOCALSTORAGE
+	localStorage.setItem('Random',retVal);
 
+	//GUARDANDO TELEFONO EN LOCALSTORAGE
+	localStorage.setItem('Fono',telefono);
 
 }); 
 
