@@ -77,15 +77,25 @@ $('.next a').on('click', function(){
 	var telefono = $('.numero').val();
 
 	if( telefono.length==0){
-		$('.next').append('<span>Ingrese telefono!</span>');
+		Materialize.toast('<span> Debe ingresar teléfono !</span>', 2000);
 		return false;
 	} if  (isNaN(telefono)){
-		$('.next').append('<span>Sólo números!</span>');
+		Materialize.toast('<span> Digite sólo números !</span>', 2000);
 		return false;
 	} if (telefono.length !== 9){
-		$('.next').append('<span>Sólo 9 digitos!</span>');
+		Materialize.toast('<span>Debe tener 9 digitos !</span>', 2000);
 		return false;
+	} else{
+
+		var codUno = Math.random();
+		var codDos = Math.random();
+		var codTres = Math.random();
+
+		alert('Su codigo es LAB - ' + Math.round(codUno) + Math.round(codDos) + Math.round(codTres));
 	}
 
+
+
 }); 
+
 });

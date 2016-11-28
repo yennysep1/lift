@@ -5,7 +5,11 @@
 }
 
 body{
-	background-size: cover; 
+
+
+	background-image: url(../img/bg1.jpg);
+	background-size: cover;
+	background-position: center 50%;
 	background-repeat: no-repeat;
 }
 

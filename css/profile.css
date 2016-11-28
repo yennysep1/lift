@@ -1,19 +1,31 @@
 /*ESTILOS DE PROFILE*/
 
-*{
-	margin: 0px;
-	padding: 0px;
-}
+/*ESTILOS API GOOGLE MAP*/
+  html, body { 
+  	height: 100%; margin: 0; padding: 0; }
+    #map { 
+    	height: 100%; 
+    	overflow-y:hidden; 
+    }
+
+/*iframe{
+	position: relative;
+}*/
 
 header .fa{
     font-size: 20px;
-    margin-top: 25px;
+    top: 25px;
     color: #000;
+    position: absolute;
+    z-index: 900;
 }
-.circle{
+
+header .circle{
 	width: 40px;
 	height: auto;
-	margin-top: 25px;
+	top: 15px;
+	position: absolute;
+	 z-index: 900;
 }
 
 .next1 a {
@@ -22,6 +34,7 @@ header .fa{
 	bottom: 63px;
 	margin-top: 5px;
 	transform: translateY(0);
+	 z-index: 1;
 }
 
 .next2 a {
@@ -30,6 +43,7 @@ header .fa{
 	bottom: 0;
 	margin-top: 5px;
 	transform: translateY(0);
+	 z-index: 1;
 }
 
 /*ESTILOS NAV ASIDE*/

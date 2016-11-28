@@ -9,23 +9,30 @@ $('.next a').on('click', function(){
 
 //VALIDACION NOMBRE 
 	if( name.length==0){ // invalida campo vacio
-		$('.next').append('<span>Ingrese nombre!</span>');
+		Materialize.toast('<span>Debe ingresar nombre !</span>', 2000);
 		return false;
 	} 
 	if(!aZ.test(name)){
-		$('.next').append('<span>Sólo letras!</span>');
+		Materialize.toast('<span>Debe ingresar sólo letras !</span>', 2000);
 		return false;
-	} 
+	}
 //VALIDACION MAIL
 	if( email.length==0){ // invalida campo vacio
-		$('.next').append('<span>Ingrese mail!</span>');
+		Materialize.toast('<span>Debe ingresar Email !</span>', 2000);
 		return false;
 	} 
 	if(!mailValido.test(email)){
-		$('.next').append('<span>Ingrese mail valido!</span>');
+		Materialize.toast('<span>Debe ingresar Email válido !</span>', 2000);
 		return false;
 	}
 
+	localStorage.setItem("Nombre", name);
+	var nombre = localStorage.getItem("Nombre");
+	$('#icon_prefix').html(nombre);
+
 } ); 
+
+
+
 
 
