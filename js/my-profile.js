@@ -37,7 +37,6 @@ function cambiarImagen(input) {
         }
 
         reader.readAsDataURL(input.files[0]);
-
     }
 }
 
