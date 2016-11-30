@@ -55,5 +55,3 @@ $("#imgInp").change(function(){
 //MOSTRAR IMAGEN DE PERFIL GUARDADA EN LOCAL STORAGE
     var userImg = localStorage.getItem('Image');
     $('#blah').attr('src', userImg);
-
-

@@ -1,4 +1,4 @@
-/*ESTILOS DE SIGN UP*/
+/*ESTILOS DE LOGIN*/
 
 *{
 	margin:0px;
@@ -7,12 +7,12 @@
 
 .join{
 	margin-top: -20px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 
-#sign-up{
-	padding: 20px 0px;
-}
+#input-field{
+	margin-top: 20px;
+} 
 
 i.fa{
     font-size: 20px;
@@ -26,7 +26,6 @@ i.fa{
 	bottom: 0;
 	transform: translateY(0);
 }
-
 
 #login i{
 	color: #4db6ac;
