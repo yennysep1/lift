@@ -5,6 +5,7 @@
 	padding: 0px;
 }
 
+
 .join{
 	margin-top: -20px;
 }
@@ -53,4 +54,11 @@ i.fa{
 	padding-top: 5px;
 	margin-top: 10px;
 }
+
+[placeholder]{
+	text-align: center;
+}
+
+
+
 

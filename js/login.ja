@@ -1,0 +1,3 @@
+gapi.load('auth2',funtion(){
+	gapi.auth2.init();
+})

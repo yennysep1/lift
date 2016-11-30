@@ -32,16 +32,28 @@ function cambiarImagen(input) {
         var reader = new FileReader();
 
         reader.onload = function (e) {
-        $('#blah').attr('src', e.target.result);
+
+       $('#blah').attr('src', e.target.result);
             
         }
 
         reader.readAsDataURL(input.files[0]);
+
+         //GUARDA IMAGEN EN LOCAL STORAGE
+        var img = reder.readAsDataURL(input.file[0]);
+        localStorage.setItem('Image', img);
+
     }
 }
 
 $("#imgInp").change(function(){
     cambiarImagen(this);
+
 });
+
+
+//MOSTRAR IMAGEN DE PERFIL GUARDADA EN LOCAL STORAGE
+    var userImg = localStorage.getItem('Image');
+    $('#blah').attr('src', userImg);
 
 
