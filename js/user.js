@@ -1,5 +1,4 @@
 
-
 $('.next a').on('click', function(){
 
 	var name = $('#icon_prefix').val();
@@ -34,7 +33,7 @@ $('.next a').on('click', function(){
 		Materialize.toast('<span>Excede el max digitos!</span>', 2000);
 		return false;
 	}
-
+/*
 //VALIDACION CONTRASEÑA
 	if( pass.length==0){ // invalida campo vacio
 		Materialize.toast('<span>Debe ingresar password !</span>', 2000);
@@ -44,6 +43,7 @@ $('.next a').on('click', function(){
 		Materialize.toast('<span>Clave insegura!</span>', 2000);
 		return false;
 	} 
+*/
 //VALIDACION CHECKLIST
 	if( $('#filled-in-box').is(':checked') ) {
     	return true;
@@ -51,8 +51,6 @@ $('.next a').on('click', function(){
 		Materialize.toast('<span>Debe aceptar los terminos!</span>', 2000);
 		return false;
 	} 
-
-	if ()
 
 //GUARDAR ELEMENTOS EN LOCALSTORAGE	
 
