@@ -44,6 +44,7 @@ $('.next a').on('click', function(){
 		return false;
 	} 
 */
+
 //VALIDACION CHECKLIST
 	if( $('#filled-in-box').is(':checked') ) {
     	return true;
