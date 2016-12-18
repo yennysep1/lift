@@ -3,7 +3,7 @@ $(document).ready(function(){
 
     //MUESTRA NOMBRE INGRESADO POR USUARIO
      var userName = localStorage.getItem('Nombre');
-     $('h5').html(userName);
+     $('.name').html(userName);
 
      //MOSTRAR IMAGEN DE PERFIL GUARDADA EN LOCAL STORAGE
     var userImg = localStorage.getItem('avatar_data');
@@ -11,8 +11,6 @@ $(document).ready(function(){
 
    
 });
-
-
 
 
 //INICIALIZA SIDENAV materilize

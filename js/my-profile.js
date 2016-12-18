@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     //MUESTRA NOMBRE INGRESADO POR USUARIO
      var userName = localStorage.getItem('Nombre');
-     $('h4').html(userName);
+     $('.name').html(userName);
 
       //MUESTRA EMAIL INGRESADO POR USUARIO
      var userEmail = localStorage.getItem('Email');
@@ -77,35 +77,3 @@ $(document).ready(function(){
     }
 });
 
-
-// PARA DAR AL ICONO LA FUNCION DEL INPUT (FORM DATA) OCULTO
-/*$('#file-select').on('click', function(e) {
-     e.preventDefault();
-     $('#imgInp').click(); 
-});
-
-function cambiarImagen(input) {
-
-    if (input.files && input.files[1]) {
-        var reader = new FileReader();
-
-        reader.onload = function (e) {
-
-       $('#blah').attr('src', e.target.result);
-      
-        }
-
-        reader.readAsDataURL(input.files[1]);
-    }
-}
-
-
-$("#imgInp").change(function(){
-    cambiarImagen(this);
-
-});
-
-
-//MOSTRAR IMAGEN DE PERFIL GUARDADA EN LOCAL STORAGE
-    var userImg = localStorage.getItem('Image');
-    $('#blah').attr('src', userImg);*/

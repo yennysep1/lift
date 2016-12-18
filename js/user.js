@@ -55,9 +55,9 @@ $('.next a').on('click', function(){
 
 //GUARDAR ELEMENTOS EN LOCALSTORAGE	
 
-	localStorage.setItem("Nombre", name);
+	/*localStorage.setItem("Nombre", name);
 	var nombre = localStorage.getItem("Nombre");
-	$('#icon_prefix').html(nombre);
+	$('#icon_prefix').html(nombre);*/
 
 	//GUARDANDO NOMBRE EN LOCALSTORAGE
 	localStorage.setItem('Nombre',name);
