@@ -3,9 +3,10 @@
 	padding: 0px;
 }
 
-img{
-	width: 100%;
-	height: 30vh;
+.form-container{
+	background-color: #26a69a;
+	position: relative;
+	margin-top: -17px;
 }
 
 .fa-angle-double-left {
@@ -13,25 +14,29 @@ img{
 	top:10px;
 	left: 10px;
 	font-size: 20px;
-}
-
-#file-select{
-	position: absolute;
-	top: 10px;
-	right: 10px;
-	font-size: 20px;
-}
-
-/* OCULTA INPUT REEMPLAZADO POR ICONO*/
-#imgInp {  
-    position: absolute;
-	visibility: hidden;
-	width: 0;
-	z-index: -9999;
+	color: #fff;
 }
 
 #previus i {
 	color: #000;
+}
+
+.file-field {
+	position: relative;
+	top: -20px;
+	left: 0;
+}
+
+.btn{
+	box-shadow: none;
+	border-radius: 0px;
+	width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+   .file-field {
+	left: 0%;
+	}
 }
 
 .user-profile i{
@@ -41,10 +46,10 @@ img{
 	opacity: 2;
 	color: #26a69a;
 }
-.name{
-	color: #26a69a;
-	margin-bottom: 20px;
-	border-bottom: 1px solid #26a69a;
+
+h4 {
+    color: #fff;
+    padding-top: 20px;
 }
 
 .user-profile i:hover{

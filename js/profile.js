@@ -6,11 +6,14 @@ $(document).ready(function(){
      $('h5').html(userName);
 
      //MOSTRAR IMAGEN DE PERFIL GUARDADA EN LOCAL STORAGE
-    var userImg = localStorage.getItem('Image');
+    var userImg = localStorage.getItem('avatar_data');
     $('.circle').attr('src', userImg);
 
+   
+});
 
- })
+
+
 
 //INICIALIZA SIDENAV materilize
 
