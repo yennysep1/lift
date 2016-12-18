@@ -33,17 +33,6 @@ $('.next a').on('click', function(){
 		Materialize.toast('<span>Excede el max digitos!</span>', 2000);
 		return false;
 	}
-/*
-//VALIDACION CONTRASEÑA
-	if( pass.length==0){ // invalida campo vacio
-		Materialize.toast('<span>Debe ingresar password !</span>', 2000);
-		return false;
-	}
-	if( pass.length < 6){ // invalida campo vacio
-		Materialize.toast('<span>Clave insegura!</span>', 2000);
-		return false;
-	} 
-*/
 
 //VALIDACION CHECKLIST
 	if( $('#filled-in-box').is(':checked') ) {
@@ -52,21 +41,6 @@ $('.next a').on('click', function(){
 		Materialize.toast('<span>Debe aceptar los terminos!</span>', 2000);
 		return false;
 	} 
-
-//GUARDAR ELEMENTOS EN LOCALSTORAGE	
-
-	/*localStorage.setItem("Nombre", name);
-	var nombre = localStorage.getItem("Nombre");
-	$('#icon_prefix').html(nombre);*/
-
-	//GUARDANDO NOMBRE EN LOCALSTORAGE
-	localStorage.setItem('Nombre',name);
-
-	//GUARDANDO MAIL EN LOCALSTORAGE
-	localStorage.setItem('Email', email);
-
-	//GUARDANDO PASSWORD EN LOCALSTORAGE
-	//localStorage.setItem('Password', pass);
 
 } ); 
 
